@@ -1,0 +1,27 @@
+{
+    "name" : "zapoyok/pdfjs-bundle",
+    "description" : "Pdf.js integration Bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "FIX Jérôme",
+        "email" : "jeromefix@zapoyok.info"
+    }
+    ],
+    "keywords" : [],
+    "license" : ["MIT"],
+
+    "autoload" : {
+        "psr-4" : {
+            "Zapoyok\\PdfJsBundle\\" : "src"
+        }
+    },
+
+    "require": {
+        "php": "^5.4"
+    },
+    "extra" : {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
